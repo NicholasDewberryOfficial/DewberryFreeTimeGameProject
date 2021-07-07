@@ -3,7 +3,10 @@ guid: 2d07adf48c6e37745a6112cd1d33f37d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - PCPrefab: {fileID: 6269496336663865200, guid: 7c36c611ca93975488793e7b473e48cc, type: 3}
+  - ZombiePrefab: {fileID: 2505764883628757381, guid: 7eeecbcc5aeffdc4c863ba2fca293ad7, type: 3}
+  - EnemyIconStation: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
