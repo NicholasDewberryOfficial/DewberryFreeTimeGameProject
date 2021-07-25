@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2505764883628757380}
   - component: {fileID: 2505764883628757383}
+  - component: {fileID: 1021172490377528568}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -25,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2505764883628757381}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.899994, y: 277, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 60.100197, y: 60.100197, z: 60.100197}
   m_Children:
   - {fileID: 2505764884619430097}
@@ -49,6 +50,23 @@ MonoBehaviour:
   corruptionLevel: 1
   currentHP: 30
   maxHP: 30
+--- !u!114 &1021172490377528568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2505764883628757381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648e0c13b5c79084ebfcbcc157845c2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitName: Zombie
+  damage: 5
+  maxHP: 8
+  currentHP: 8
+  HeatLevel: 0
 --- !u!1 &2505764884619430110
 GameObject:
   m_ObjectHideFlags: 0
@@ -59,7 +77,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2505764884619430097}
   - component: {fileID: 2505764884619430096}
-  - component: {fileID: 8744994353102223049}
   m_Layer: 0
   m_Name: shambling-zombie
   m_TagString: Untagged
@@ -132,20 +149,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8744994353102223049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2505764884619430110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 648e0c13b5c79084ebfcbcc157845c2d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitName: Zombie
-  unitLevel: 3
-  damage: 5
-  maxHP: 30
-  currentHP: 30

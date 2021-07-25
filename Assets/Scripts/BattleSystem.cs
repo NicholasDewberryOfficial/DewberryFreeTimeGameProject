@@ -18,6 +18,18 @@ public BattleState state;
 
 public Transform EnemyIconStation;
 public TMPro.TMP_Text EnemyName;
+public TMPro.TMP_Text PcName;
+
+public TMPro.TMP_Text PCHP;
+
+public TMPro.TMP_Text EnemyHP;
+public BattleHud playerHud;
+public BattleHud enemyHud;
+public TMPro.TMP_Text DialogueText;
+
+
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -33,16 +45,101 @@ public TMPro.TMP_Text EnemyName;
         
     }
 
+    //IEnumerator SetupBattle(){
+
     void SetupBattle(){
         GameObject Player = Instantiate(PCPrefab);
         playerUnit = Player.GetComponent<Unit>();
         
         GameObject Enemy = Instantiate(ZombiePrefab, EnemyIconStation);
         enemyUnit = Enemy.GetComponent<Unit>();
+        playerHud.SetHud(playerUnit);
+        enemyHud.SetHud(enemyUnit);
 
-        EnemyName.text = enemyUnit.unitName;
-
-        //enemyUnit.unitName;
+      // yield return new WaitForSeconds(2f);
+        state = BattleState.PLAYERTURN;
+        PlayerTurn();
 
     }
+    IEnumerator PlayerTurn(){
+        yield return new WaitForSeconds(.5f);
+        DialogueText.text +=  "choose an action";
+    }
+    
+
+    IEnumerator EnemyTurn(){
+        DialogueText.text += enemyUnit.unitName + " Attacks!";
+        yield return new WaitForSeconds(.5f);
+        bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
+
+        playerHud.SetHP(playerUnit.currentHP);
+
+        yield return new WaitForSeconds(.5f);
+
+        if (isDead){
+            state = BattleState.LOST;
+        } else {
+            state = BattleState.PLAYERTURN;
+            PlayerTurn();
+        }
+    }
+    
+
+    void EndBattle(){
+        if(state == BattleState.WON){
+            DialogueText.text += "You won";
+        } else if(state == BattleState.LOST){
+            DialogueText.text += "you lost";
+        }
+    }
+
+    public void onAttackButton(){
+        if (state != BattleState.PLAYERTURN){
+            return;
+        }
+        StartCoroutine(PlayerAttack());
+    }
+
+    IEnumerator PlayerAttack(){
+        bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
+        enemyHud.SetHP(enemyUnit.currentHP);
+        DialogueText.text +=  "Unarmed Attack!";
+        yield return new WaitForSeconds(.5f);
+
+        if(isDead){
+            state=BattleState.WON;
+            EndBattle();
+        }
+        else{
+            state=BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn());
+        }}
+        
+
+    public void onAbsorbButton(){
+        if (state != BattleState.PLAYERTURN){
+            return;
+        }
+        StartCoroutine(absorbAttack());
+    }
+
+    IEnumerator absorbAttack(){
+        bool isDead = enemyUnit.TakeDamage(playerUnit.damage - 2);
+        enemyHud.SetHP(enemyUnit.currentHP);
+        playerUnit.Heal(5);
+        playerUnit.HeatLevel +=1;
+        DialogueText.text +=  "Absorb Attack! Heat has gone up...";
+        yield return new WaitForSeconds(.5f);
+
+        if(isDead){
+            state=BattleState.WON;
+            EndBattle();
+        }
+        else{
+            state=BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn());
+        }}
+
+    
+
 }
