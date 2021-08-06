@@ -63,12 +63,12 @@ public TMPro.TMP_Text DialogueText;
     }
     IEnumerator PlayerTurn(){
         yield return new WaitForSeconds(.5f);
-        DialogueText.text +=  "choose an action";
+        DialogueText.text +=  "choose an action \n";
     }
     
 
     IEnumerator EnemyTurn(){
-        DialogueText.text += enemyUnit.unitName + " Attacks!";
+        DialogueText.text += enemyUnit.unitName + " Attacks! \n";
         yield return new WaitForSeconds(.5f);
         bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
 
@@ -103,7 +103,7 @@ public TMPro.TMP_Text DialogueText;
     IEnumerator PlayerAttack(){
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
         enemyHud.SetHP(enemyUnit.currentHP);
-        DialogueText.text +=  "Unarmed Attack!";
+        DialogueText.text +=  "Unarmed Attack! \n";
         yield return new WaitForSeconds(.5f);
 
         if(isDead){
@@ -128,7 +128,7 @@ public TMPro.TMP_Text DialogueText;
         enemyHud.SetHP(enemyUnit.currentHP);
         playerUnit.Heal(5);
         playerUnit.HeatLevel +=1;
-        DialogueText.text +=  "Absorb Attack! Heat has gone up...";
+        DialogueText.text +=  "Absorb Attack! Heat has gone up... \n";
         yield return new WaitForSeconds(.5f);
 
         if(isDead){
