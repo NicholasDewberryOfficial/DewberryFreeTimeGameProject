@@ -9,6 +9,7 @@ public class BattleHud : MonoBehaviour
 
    public TextMeshProUGUI Name;
    public Slider hpSlider;
+   public Slider HeatSlider;
 
 
 
@@ -18,6 +19,7 @@ public class BattleHud : MonoBehaviour
         Name.text = unit.unitName;
         hpSlider.maxValue = unit.maxHP;
         hpSlider.value = unit.currentHP;
+        HeatSlider.value = unit.HeatLevel;
 
     }
 

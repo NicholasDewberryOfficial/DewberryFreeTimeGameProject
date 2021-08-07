@@ -14,6 +14,7 @@ public class Unit : MonoBehaviour
 	public int maxHP;
 	public int currentHP;
 	public int HeatLevel;
+	public int StatusInt;
 
 	public bool TakeDamage(int dmg)
 	{
@@ -26,7 +27,7 @@ public class Unit : MonoBehaviour
 	}
 
 
-	public void checkStatus(int HeatLevel){
+	public void checkHeat(int HeatLevel){
 
 		switch(HeatLevel){
 			case 0:

@@ -62,6 +62,7 @@ public TMPro.TMP_Text DialogueText;
 
     }
     IEnumerator PlayerTurn(){
+        playerUnit.checkHeat(HeatLevel);
         yield return new WaitForSeconds(.5f);
         DialogueText.text +=  "choose an action \n";
     }
@@ -123,6 +124,13 @@ public TMPro.TMP_Text DialogueText;
         StartCoroutine(absorbAttack());
     }
 
+    public void onLowerHeatButton(){
+        if (state != BattleState.PLAYERTURN){
+            return;
+        }
+        StartCoroutine(LowerHeat());
+    }
+
     IEnumerator absorbAttack(){
         bool isDead = enemyUnit.TakeDamage(playerUnit.damage - 2);
         enemyHud.SetHP(enemyUnit.currentHP);
@@ -139,6 +147,24 @@ public TMPro.TMP_Text DialogueText;
             state=BattleState.ENEMYTURN;
             StartCoroutine(EnemyTurn());
         }}
+
+    IEnumerator LowerHeat(){
+        playerUnit.HeatLevel -=2;
+        playerUnit.TakeDamage(2);
+        DialogueText.text +=  "You cool yourself down... But it makes you vulnerable! \n";
+        yield return new WaitForSeconds(.5f);
+        bool isDead = false;
+
+        if(isDead){
+            state=BattleState.WON;
+            EndBattle();
+        }
+        else{
+            state=BattleState.ENEMYTURN;
+            StartCoroutine(EnemyTurn());
+        }}
+
+    
 
     
 
