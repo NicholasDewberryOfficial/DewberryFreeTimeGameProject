@@ -53,7 +53,7 @@ public class Unit : MonoBehaviour
 			default:
 			currentHP = currentHP - 2;
 			HeatLevel = 0;
-			checkStatus(HeatLevel);
+			//checkStatus(HeatLevel);
 			damage -= 8;
 			break;
 

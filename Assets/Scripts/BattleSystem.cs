@@ -62,7 +62,7 @@ public TMPro.TMP_Text DialogueText;
 
     }
     IEnumerator PlayerTurn(){
-        playerUnit.checkHeat(HeatLevel);
+        //playerUnit.checkHeat(HeatLevel);
         yield return new WaitForSeconds(.5f);
         DialogueText.text +=  "choose an action \n";
     }
