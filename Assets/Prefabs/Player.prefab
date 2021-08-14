@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6269496336663865203}
-  - component: {fileID: 3135267815890929427}
   - component: {fileID: 8089383901685044610}
   m_Layer: 0
   m_Name: Player
@@ -32,24 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3135267815890929427
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6269496336663865200}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1aff1e5e1d4f94418f846fbf1c1c85a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unitName: 
-  damage: 0
-  corruptionLevel: 0
-  currentHP: 0
-  maxHP: 0
-  Status: 0
 --- !u!114 &8089383901685044610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,4 +47,5 @@ MonoBehaviour:
   damage: 2
   maxHP: 40
   currentHP: 30
-  HeatLevel: 0
+  HeatLevel: 4
+  StatusInt: 0

@@ -76,6 +76,7 @@ public TMPro.TMP_Text DialogueText;
         playerHud.SetHP(playerUnit.currentHP);
 
         yield return new WaitForSeconds(.5f);
+        enemyUnit.HeatLevel += 1;
 
         if (isDead){
             state = BattleState.LOST;
