@@ -5,12 +5,13 @@ using TMPro;
 using UnityEngine.UI;
 
 
-public enum BattleState {START, PLAYERTURN, ENEMYTURN, WON, LOST }
+public enum BattleState {START, PLAYERTURN, ENEMYTURN, WON, LOST, NEXT }
 
 public class BattleSystem : MonoBehaviour
 {
 public GameObject PCPrefab;
 public GameObject ZombiePrefab;
+public GameObject Deck;
 
 Unit playerUnit;
 Unit enemyUnit;
@@ -43,6 +44,10 @@ public TMPro.TMP_Text DialogueText;
     void Update()
     {
         
+    }
+
+    void NEXT(){
+        //GameObjec
     }
 
     //IEnumerator SetupBattle(){
