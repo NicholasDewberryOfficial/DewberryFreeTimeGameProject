@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3270085462321218460}
   - component: {fileID: 3881473931094377875}
+  - component: {fileID: 1339302687398538533}
+  - component: {fileID: 2180235463996563254}
   m_Layer: 0
   m_Name: NodePC
   m_TagString: Untagged
@@ -43,8 +45,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d84606387aa784da2b0b833957ef17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: 9
   corruptionLevel: 0
   hasChainsaw: 0
   hasPlasmaGun: 0
   hasAssaultRifle: 0
+--- !u!114 &1339302687398538533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9064289779039645381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad115aca74ce3c4891b3f6de0b4aae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedExposedParameters: []
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_tag":"PreBattle/Exploration","_position":{"x":864.0,"y":163.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_tag":"EnterBattle","_position":{"x":920.0,"y":558.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"_position":{"x":1004.0,"y":329.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode"},{"conditionFailReturn":1,"_tag":"CheckIfENemiesAreaDead","_position":{"x":1140.0,"y":639.0},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"3"},{"_tag":"PlayerTurn","_position":{"x":820.0,"y":627.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"4"},{"isDynamic":true,"conditionFailReturn":1,"_condition":{"button":{},"$type":"NodeCanvas.Tasks.Conditions.ButtonClicked"},"_position":{"x":1063.0,"y":915.0},"$type":"NodeCanvas.BehaviourTrees.ConditionalEvaluator","$id":"5"},{"_tag":"EnemyTurn","_position":{"x":818.0,"y":839.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"6"}],"connections":[{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _boundGraphObjectReferences: []
+  _boundGraphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -223, y: 66}
+    _zoomFactor: 1
+  _firstActivation: 1
+  _enableAction: 0
+  _disableAction: 0
+  _lockBoundGraphPrefabOverrides: 1
+  _preInitializeSubGraphs: 0
+  _updateMode: 0
+  _graph: {fileID: 0}
+  _blackboard: {fileID: 2180235463996563254}
+--- !u!114 &2180235463996563254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9064289779039645381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98a6db0b653f764eac834f85857a9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parentBlackboard: {fileID: 0}
+  _serializedBlackboard: '{"_variables":{"Health":{"_value":2,"_propertyPath":"NodePlayerScript.Health","_name":"Health","_id":"bbe7dfb4-8164-40fb-a2ae-afb3e99a56ba","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"corruptionLevel":{"_propertyPath":"NodePlayerScript.corruptionLevel","_name":"corruptionLevel","_id":"ff71ffcd-ec57-4809-b0d4-309ff8cf6c17","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"hasChainsaw":{"_propertyPath":"NodePlayerScript.hasChainsaw","_name":"hasChainsaw","_id":"4f44db3f-d32e-4490-938e-e93614c4363a","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"hasPlasmaGun":{"_propertyPath":"NodePlayerScript.hasPlasmaGun","_name":"hasPlasmaGun","_id":"c7d1168e-a7a7-48c3-b54e-5238441ffb97","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"hasAssaultRifle":{"_propertyPath":"NodePlayerScript.hasAssaultRifle","_name":"hasAssaultRifle","_id":"3de9726d-33a7-463e-91cb-0f4ebb245711","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
+  _objectReferences: []
+  _serializedVariables:
+  - _json: '{"_value":2,"_propertyPath":"NodePlayerScript.Health","_name":"Health","_id":"bbe7dfb4-8164-40fb-a2ae-afb3e99a56ba","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_propertyPath":"NodePlayerScript.corruptionLevel","_name":"corruptionLevel","_id":"ff71ffcd-ec57-4809-b0d4-309ff8cf6c17","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_propertyPath":"NodePlayerScript.hasChainsaw","_name":"hasChainsaw","_id":"4f44db3f-d32e-4490-938e-e93614c4363a","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_propertyPath":"NodePlayerScript.hasPlasmaGun","_name":"hasPlasmaGun","_id":"c7d1168e-a7a7-48c3-b54e-5238441ffb97","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_propertyPath":"NodePlayerScript.hasAssaultRifle","_name":"hasAssaultRifle","_id":"3de9726d-33a7-463e-91cb-0f4ebb245711","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []

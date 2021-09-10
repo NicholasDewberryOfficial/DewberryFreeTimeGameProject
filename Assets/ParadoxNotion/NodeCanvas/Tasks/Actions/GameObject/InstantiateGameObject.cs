@@ -12,6 +12,7 @@ namespace NodeCanvas.Tasks.Actions
         public BBParameter<Vector3> cloneRotation;
         [BlackboardOnly]
         public BBParameter<GameObject> saveCloneAs;
+       
 
         protected override string info {
             get { return "Instantiate " + agentInfo + " under " + ( parent.value ? parent.ToString() : "World" ) + " at " + clonePosition + " as " + saveCloneAs; }

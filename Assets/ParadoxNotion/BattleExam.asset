@@ -21,6 +21,6 @@ MonoBehaviour:
     _version: 3.21
     _category: 
     _comments: 
-    _translation: {x: 521.251, y: 65.213524}
-    _zoomFactor: 1
+    _translation: {x: 436, y: 100}
+    _zoomFactor: 0.96406806
   _haltSerialization: 0

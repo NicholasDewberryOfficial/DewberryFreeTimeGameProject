@@ -1,597 +1,827 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 32681 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-G:\unity\2020.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject
+C:/Users/user/Documents/DewberryFreeTimeGameProject/DewberryFreeTimeGameProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57045
-Successfully changed project path to: C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject
-C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject
+60373
+Successfully changed project path to: C:/Users/user/Documents/DewberryFreeTimeGameProject/DewberryFreeTimeGameProject
+C:/Users/user/Documents/DewberryFreeTimeGameProject/DewberryFreeTimeGameProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path G:/unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject/Assets
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/DewberryFreeTimeGameProject/DewberryFreeTimeGameProject/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.6611
+    VRAM:     8043 MB
+    Driver:   30.0.14.7141
 Initialize mono
-Mono path[0] = 'G:/unity/2020.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'G:/unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'G:/unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: G:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001636 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001333 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 67.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.566 seconds
+- Completed reload, in  1.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1599ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (350ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006656 seconds.
+Registered in 0.002836 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.574 seconds
+- Completed reload, in  1.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1082ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (919ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (450ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.4 MB.
-System memory in use after: 121.2 MB.
+Unloading 2626 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.1 MB.
+System memory in use after: 122.2 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3086.
-Total: 3.203300 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.604700 ms  DeleteObjects: 0.205900 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3106.
+Total: 2.704200 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.111200 ms MarkObjects: 2.317100 ms  DeleteObjects: 0.050600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Ground textures pack/Grass & rocks/normal.tga
+  artifactKey: Guid(e5895469fa6440e4a876bf0672599e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & rocks/normal.tga using Guid(e5895469fa6440e4a876bf0672599e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2b0c34109d83a2a9a37f00da29d5d5') in 0.051637 seconds 
+  Import took 0.055026 seconds .
 
 ========================================================================
 Received Import Request.
-  path: Assets/ParadoxNotion/ParadoxNotion.asmdef
-  artifactKey: Guid(b134867f3cd9e37428b652f97bf28b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/ParadoxNotion.asmdef using Guid(b134867f3cd9e37428b652f97bf28b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e82d4c6cf5d327bbc24c6928007851') in 0.058897 seconds
-  Import took 0.064336 seconds .
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ground textures pack/Grass 01/normal.tga
+  artifactKey: Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass 01/normal.tga using Guid(0c3232df383d7984ab0e87bf7c42aadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f02220bfa56d179ee4ec7a7fe24ddb4') in 0.013109 seconds 
+  Import took 0.016277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/ParadoxNotion
-  artifactKey: Guid(f5064f941a5ebb64596e80c98bcad19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion using Guid(f5064f941a5ebb64596e80c98bcad19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1196d97437da92f42db15260e8d5b0c') in 0.002876 seconds
-  Import took 0.007195 seconds .
+  Time since last request: 0.000131 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Dark/NodePort.psd
+  artifactKey: Guid(bd66d8018a60ab14c9f709f9b859466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Dark/NodePort.psd using Guid(bd66d8018a60ab14c9f709f9b859466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a39df4d6e907913b671c51f36be35e') in 0.009110 seconds 
+  Import took 0.012157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.432031 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas
-  artifactKey: Guid(ea23bacb128cf2c49b9cac335109b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas using Guid(ea23bacb128cf2c49b9cac335109b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4eabe30f564ccfded78cae8f38b58b') in 0.009645 seconds
-  Import took 0.014185 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Metal textures pack/pattern 06/normal.tga
+  artifactKey: Guid(78539658ce7970846941febcb6b6ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 06/normal.tga using Guid(78539658ce7970846941febcb6b6ef79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e644f6acc14c69d6f49694ddbafd580b') in 0.007812 seconds 
+  Import took 0.010868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.505593 seconds.
-  path: Assets/ParadoxNotion/CanvasCore
-  artifactKey: Guid(bd9f4941b19037f4a88460b874a8a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/CanvasCore using Guid(bd9f4941b19037f4a88460b874a8a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93752bbb8bd10e562715e2c339e32327') in 0.009369 seconds
-  Import took 0.014187 seconds .
+  Time since last request: 0.000150 seconds.
+  path: Assets/Metal textures pack/pattern 02/normal.tga
+  artifactKey: Guid(67281eba38c0da0429b588ccd843fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 02/normal.tga using Guid(67281eba38c0da0429b588ccd843fc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea80c0e5b2f7c89f11bcccabbc6ea39f') in 0.009440 seconds 
+  Import took 0.012423 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.052275 seconds.
-  path: Assets/ParadoxNotion/CanvasCore/GraphOwnerGizmo.png
-  artifactKey: Guid(b5eeec78a0081094cb8dfeb83808d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/CanvasCore/GraphOwnerGizmo.png using Guid(b5eeec78a0081094cb8dfeb83808d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce6921d797ce5b8c1850040f81fbcb') in 0.089633 seconds
-  Import took 0.094425 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Metal textures pack/pattern 23/normal.tga
+  artifactKey: Guid(db37d706cdff6f1419734f1ab4ba58c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 23/normal.tga using Guid(db37d706cdff6f1419734f1ab4ba58c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e37dc5cb8f15d48f07b48f46c36048') in 0.008352 seconds 
+  Import took 0.011372 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.080116 seconds.
-  path: Assets/ParadoxNotion/CanvasCore/Framework
-  artifactKey: Guid(db108d81d17994548b7c6fbc7398262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/CanvasCore/Framework using Guid(db108d81d17994548b7c6fbc7398262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d883de0ca8cd74e26bda3c3f34c1571') in 0.008766 seconds
-  Import took 0.013640 seconds .
+  Time since last request: 0.000153 seconds.
+  path: Assets/Metal textures pack/pattern 20/normal.tga
+  artifactKey: Guid(c8ba017bb1982e941a3c9e6cf91c2adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 20/normal.tga using Guid(c8ba017bb1982e941a3c9e6cf91c2adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283c6c077ee0a9317e148149b4095fe5') in 0.007331 seconds 
+  Import took 0.010365 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.807628 seconds.
-  path: Assets/ParadoxNotion/CanvasCore/Framework/Design
-  artifactKey: Guid(10ba45a5b4cb5be40bcaf02f335654ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design using Guid(10ba45a5b4cb5be40bcaf02f335654ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed847948807f396d8d0ce919312daa1') in 0.008699 seconds
-  Import took 0.013437 seconds .
+  Time since last request: 0.000159 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 01/normal.tga
+  artifactKey: Guid(ae0e7acc3616ba441a70994eb662f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 01/normal.tga using Guid(ae0e7acc3616ba441a70994eb662f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '071fbb13decb68e85e6b29982084ad12') in 0.008282 seconds 
+  Import took 0.011329 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.406153 seconds.
-  path: Assets/ParadoxNotion/CanvasCore/Common
-  artifactKey: Guid(0aa2a0733358abb4c90587d3628d0ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/CanvasCore/Common using Guid(0aa2a0733358abb4c90587d3628d0ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c3426e075a5a318414f376e1112c81') in 0.008438 seconds
-  Import took 0.013376 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Metal textures pack/pattern 08/normal.tga
+  artifactKey: Guid(fb1c9762ffb56614e8b268bc68a62636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 08/normal.tga using Guid(fb1c9762ffb56614e8b268bc68a62636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc64256b76400bf3a8a485ff8696a6f2') in 0.007914 seconds 
+  Import took 0.010878 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.851163 seconds.
-  path: Assets/ParadoxNotion/CanvasCore/Framework/Runtime
-  artifactKey: Guid(e80025b5d020a1644970c8b8d29b16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/CanvasCore/Framework/Runtime using Guid(e80025b5d020a1644970c8b8d29b16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c0f444aecaf1ecb6c4de15912594c6') in 0.009114 seconds
-  Import took 0.014169 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Metal textures pack/pattern 22/normal.tga
+  artifactKey: Guid(21d6849d2ae56cf4eaf3ebcd1ad22562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 22/normal.tga using Guid(21d6849d2ae56cf4eaf3ebcd1ad22562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0620a9d0f9640e6155bfa464816049dd') in 0.006828 seconds 
+  Import took 0.009779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.252481 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Modules
-  artifactKey: Guid(4b96917df5b826b42aca7c0146350c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Modules using Guid(4b96917df5b826b42aca7c0146350c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4166b2c9a75bd76ddf25e0ce88d8808') in 0.009509 seconds
-  Import took 0.014241 seconds .
+  Time since last request: 0.000157 seconds.
+  path: Assets/Metal textures pack/pattern 33/normal.tga
+  artifactKey: Guid(7cc55cec99e0c754a91dbea4fb1bfbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 33/normal.tga using Guid(7cc55cec99e0c754a91dbea4fb1bfbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577d65c047d774e8f5878b936b475552') in 0.008111 seconds 
+  Import took 0.011240 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.892396 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Tasks
-  artifactKey: Guid(7dbd2d497495aa54d9567ca422bbc220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Tasks using Guid(7dbd2d497495aa54d9567ca422bbc220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dae385c9d38f1f81802392ae5d62ba6') in 0.008650 seconds
-  Import took 0.013410 seconds .
+  Time since last request: 0.000130 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Dark/NodePortConnectedHover.psd
+  artifactKey: Guid(5b40cde50004a6f49b12d170dcde0589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Dark/NodePortConnectedHover.psd using Guid(5b40cde50004a6f49b12d170dcde0589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3346292f83b257a619b01c525a045514') in 0.007144 seconds 
+  Import took 0.010108 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.603537 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions
-  artifactKey: Guid(0271def5faffd2942bc5032d22fd8aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions using Guid(0271def5faffd2942bc5032d22fd8aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18071821aa7bc3ce8f78289d79fbecc') in 0.008536 seconds
-  Import took 0.013171 seconds .
+  Time since last request: 0.000118 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/TypeIcons/Implicit/NodeCanvas.Framework.Node.png
+  artifactKey: Guid(f7609e8a908d7614b996d88627c6331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/TypeIcons/Implicit/NodeCanvas.Framework.Node.png using Guid(f7609e8a908d7614b996d88627c6331b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f0fbdf9abc1fcea191656df44b3ba9') in 0.027895 seconds 
+  Import took 0.030895 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.298194 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents
-  artifactKey: Guid(a216bd9eb1f3257479c6eb7bd54a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents using Guid(a216bd9eb1f3257479c6eb7bd54a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f3014afadf6fcc682513d32ff258ba') in 0.009120 seconds
-  Import took 0.013719 seconds .
+  Time since last request: 0.000124 seconds.
+  path: Assets/Metal textures pack/pattern 01/normal.tga
+  artifactKey: Guid(d5854954021862c4fa2da43144b07404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/normal.tga using Guid(d5854954021862c4fa2da43144b07404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d20cbb9effa7cb1519b3cac13829414') in 0.008053 seconds 
+  Import took 0.011091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.712922 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouse2D.cs
-  artifactKey: Guid(41f72cd7fdd898849b2e44eddeb6c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouse2D.cs using Guid(41f72cd7fdd898849b2e44eddeb6c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31666ed3c9878ee50ed5308d763a2d0') in 0.020642 seconds
-  Import took 0.025531 seconds .
+  Time since last request: 0.000135 seconds.
+  path: Assets/Metal textures pack/pattern 35/normal.tga
+  artifactKey: Guid(7b71942f10d916f4aad70f2bb888f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 35/normal.tga using Guid(7b71942f10d916f4aad70f2bb888f184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daf816925692c8d72ba483c96d722a5') in 0.009294 seconds 
+  Import took 0.012277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.786207 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Editor
-  artifactKey: Guid(21af63cb2c48a3b4f829ae3b353031b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Editor using Guid(21af63cb2c48a3b4f829ae3b353031b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd71a25deb0d4a1c869408d74f99fbfb') in 0.007810 seconds
-  Import took 0.013526 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Metal textures pack/pattern 31/normal.tga
+  artifactKey: Guid(bdbb6a502cfc83e41bb068241649b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 31/normal.tga using Guid(bdbb6a502cfc83e41bb068241649b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa40059b75d562e7aa4b9729635b4de') in 0.007130 seconds 
+  Import took 0.010065 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.241658 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Modules/DialogueTrees
-  artifactKey: Guid(401468022ced6be409de4e26417b1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Modules/DialogueTrees using Guid(401468022ced6be409de4e26417b1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18468552e95306f300d2593a2ecafb2b') in 0.008876 seconds
-  Import took 0.013704 seconds .
+  Time since last request: 0.000179 seconds.
+  path: Assets/Ground textures pack/Ground 01/normal.tga
+  artifactKey: Guid(f49b46ff67c24a84ba0cdb7301ab7337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Ground 01/normal.tga using Guid(f49b46ff67c24a84ba0cdb7301ab7337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bafe9cb1f47d94736fdded310848646') in 0.009513 seconds 
+  Import took 0.012378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.817855 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Modules/StateMachines
-  artifactKey: Guid(138783e4d22e4914386375d72cfb9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Modules/StateMachines using Guid(138783e4d22e4914386375d72cfb9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb21be076361fa5e4a9bc155d81db14') in 0.007900 seconds
-  Import took 0.013304 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Ground textures pack/Grass & dead leafs 02/normal.tga
+  artifactKey: Guid(0c64d261e58031345b9844438ceb0af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Grass & dead leafs 02/normal.tga using Guid(0c64d261e58031345b9844438ceb0af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dce553960c8c2c5d33a3722aa467d61') in 0.010232 seconds 
+  Import took 0.013159 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.020442 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer
-  artifactKey: Guid(041e18f0c8aec704cb1d5550618b04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer using Guid(041e18f0c8aec704cb1d5550618b04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7390cd1f2bc5e61969f79ce5e1f947e1') in 0.008970 seconds
-  Import took 0.013836 seconds .
+  Time since last request: 0.000114 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Light/NodePortConnectedHover.psd
+  artifactKey: Guid(1008da00b7f9b5745b8b2429a24a481a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Light/NodePortConnectedHover.psd using Guid(1008da00b7f9b5745b8b2429a24a481a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52455aff1d54b07545ada21969333c1') in 0.009029 seconds 
+  Import took 0.012130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.308523 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs
-  artifactKey: Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs using Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2afe45b302028a682884ea419b351') in 0.003706 seconds
-  Import took 0.009032 seconds .
+  Time since last request: 0.000147 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Light/NodePortHover.psd
+  artifactKey: Guid(83a303c6804873b4da473eae7eb08213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Light/NodePortHover.psd using Guid(83a303c6804873b4da473eae7eb08213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7b6bd591b1580f08366efceda49f58') in 0.009653 seconds 
+  Import took 0.012608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs
-  artifactKey: Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs using Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2afe45b302028a682884ea419b351') in 0.003471 seconds
-  Import took 0.007959 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Metal textures pack/pattern 21/normal.tga
+  artifactKey: Guid(c609c65887e98af49a4f8a7cb3c4299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 21/normal.tga using Guid(c609c65887e98af49a4f8a7cb3c4299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e2fea639a29eb5842dda77784e6a25') in 0.007408 seconds 
+  Import took 0.010445 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.889819 seconds.
-  path: Assets/ParadoxNotion/FSM.asset
-  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/FSM.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7027fc0569a59a563b3ec9826740fe12') in 0.038189 seconds
-  Import took 0.043111 seconds .
+  Time since last request: 0.000146 seconds.
+  path: Assets/Metal textures pack/pattern 04/normal.tga
+  artifactKey: Guid(627a1335b8727c348ac4edeb052e8423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 04/normal.tga using Guid(627a1335b8727c348ac4edeb052e8423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0a1bda0af3d5b0f4d39cd12b028e95') in 0.007605 seconds 
+  Import took 0.010573 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.443662 seconds.
-  path: Assets/ParadoxNotion/BattleExam.asset
-  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bad758d16c1384648c9ff313e6466e9') in 0.008514 seconds
-  Import took 0.014247 seconds .
+  Time since last request: 0.000148 seconds.
+  path: Assets/Metal textures pack/pattern 32/normal.tga
+  artifactKey: Guid(491117f52653f594b9a6c39436505dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 32/normal.tga using Guid(491117f52653f594b9a6c39436505dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a10b866fd3f2b93e326ec334aa8ca5f') in 0.008734 seconds 
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Metal textures pack/pattern 37/normal.tga
+  artifactKey: Guid(adc0960bcca23b14da719bdbee111681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 37/normal.tga using Guid(adc0960bcca23b14da719bdbee111681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5ba21eb2920334a1d07f9846ddfcff') in 0.008911 seconds 
+  Import took 0.011980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Metal textures pack/pattern 24/normal.tga
+  artifactKey: Guid(cc9ff8eee97b16a4384de8db8b91ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 24/normal.tga using Guid(cc9ff8eee97b16a4384de8db8b91ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0f851b5bad60a712b06aaa2ce97f2a') in 0.008086 seconds 
+  Import took 0.010982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Metal textures pack/pattern 34/normal.tga
+  artifactKey: Guid(5edc0f85ea81c164dbb31dd807e052e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 34/normal.tga using Guid(5edc0f85ea81c164dbb31dd807e052e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbe38a161d0faa5719aa2c5c6ba83f1') in 0.007453 seconds 
+  Import took 0.010463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Metal textures pack/pattern 05/normal.tga
+  artifactKey: Guid(984a0d4933c99ab4db68d1d547fd0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/normal.tga using Guid(984a0d4933c99ab4db68d1d547fd0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cd0d2d8522905950dd7bfb1015e26d') in 0.008673 seconds 
+  Import took 0.011844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Metal textures pack/pattern 38/normal.tga
+  artifactKey: Guid(555343e2364703a4a9141cb0d91087ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 38/normal.tga using Guid(555343e2364703a4a9141cb0d91087ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c3e5107aa746220eae3d89d1bf4477') in 0.009163 seconds 
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Light/NodePort.psd
+  artifactKey: Guid(f9c14578d344faa4c8ea654da3b08c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Light/NodePort.psd using Guid(f9c14578d344faa4c8ea654da3b08c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd383cc094652c456e8d077614227b0d') in 0.008953 seconds 
+  Import took 0.011880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/TypeIcons/Implicit/NodeCanvas.Framework.Task.png
+  artifactKey: Guid(e9ff990cdfaf52b4692e36cb6f4a2054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/TypeIcons/Implicit/NodeCanvas.Framework.Task.png using Guid(e9ff990cdfaf52b4692e36cb6f4a2054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92646eaa2dd3ad2050bc269232c55ee9') in 0.006638 seconds 
+  Import took 0.009718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Metal textures pack/pattern 07/normal.tga
+  artifactKey: Guid(7eeca9d8c8be1cf408c709859168a5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 07/normal.tga using Guid(7eeca9d8c8be1cf408c709859168a5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34996fc522bf573838a5140e9f830a3') in 0.007572 seconds 
+  Import took 0.010559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Metal textures pack/pattern 03/normal.tga
+  artifactKey: Guid(1e1dd049614ab114c964d06be44cc7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 03/normal.tga using Guid(1e1dd049614ab114c964d06be44cc7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96232522257eea699e2c09afee62e6ad') in 0.007184 seconds 
+  Import took 0.010179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Metal textures pack/pattern 09/normal.tga
+  artifactKey: Guid(6e41f68cfa3b8e04c81baa9e9a4cbc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 09/normal.tga using Guid(6e41f68cfa3b8e04c81baa9e9a4cbc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a38a66e8fb7f507479f5310e9a107b') in 0.009059 seconds 
+  Import took 0.012066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Ground textures pack/Dry ground/normal.tga
+  artifactKey: Guid(af579c7a89d15d24eb8c925a43a236cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ground textures pack/Dry ground/normal.tga using Guid(af579c7a89d15d24eb8c925a43a236cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2bc2aa1a4fdd9d095b8da2952d272f') in 0.009271 seconds 
+  Import took 0.012378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Metal textures pack/pattern 36/normal.tga
+  artifactKey: Guid(68797f3701751294c95968616a6c81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 36/normal.tga using Guid(68797f3701751294c95968616a6c81c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cf936c1cb3d3b6298345e9817281b0') in 0.008118 seconds 
+  Import took 0.011232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Dark/NodePortHover.psd
+  artifactKey: Guid(e225926bb93fe3041b0e80a0932338de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Resources/StyleSheet/StyleSheetTextures/Dark/NodePortHover.psd using Guid(e225926bb93fe3041b0e80a0932338de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1901e7bf0fda9d1e1c78df46e21e6274') in 0.006591 seconds 
+  Import took 0.009663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Metal textures pack/pattern 10/normal.tga
+  artifactKey: Guid(8c32659b85509e243af7fdea906f601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 10/normal.tga using Guid(8c32659b85509e243af7fdea906f601f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66c10f92b2a06a64f65c29e52a2f50f') in 0.009133 seconds 
+  Import took 0.012104 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005990 seconds.
+Registered in 0.002679 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.313 seconds
+- Completed reload, in  0.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 119.7 MB.
-System memory in use after: 119.8 MB.
+Unloading 2584 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.0 MB.
+System memory in use after: 120.2 MB.
 
-Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3077.
-Total: 2.942100 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.276500 ms  DeleteObjects: 0.273200 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3097.
+Total: 2.741300 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.310800 ms  DeleteObjects: 0.091700 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (936ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3100.
+Total: 2.800400 ms (FindLiveObjects: 0.243300 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.427800 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 589.985981 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources
-  artifactKey: Guid(da34acc11b7d0f64586ba39b224e1534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources using Guid(da34acc11b7d0f64586ba39b224e1534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9916db60c2e98a3b80449cdf1aaa682') in 0.012838 seconds
-  Import took 0.018199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.674425 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes
-  artifactKey: Guid(86a19da38bec7004198609d5b5095a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes using Guid(86a19da38bec7004198609d5b5095a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deb067d44ed2b219ac43093abee5978') in 0.007875 seconds
-  Import took 0.012440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.940855 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes
-  artifactKey: Guid(0fec79ea23d881342a92c4686f24b03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes using Guid(0fec79ea23d881342a92c4686f24b03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6cb5639061e8e14f5b3ea066774690') in 0.008273 seconds
-  Import took 0.012885 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.204102 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes
-  artifactKey: Guid(9e731300e58d6e04ba9c1d12bdc60ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes using Guid(9e731300e58d6e04ba9c1d12bdc60ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8dbf0a1683fb6d4ff93b8a8325aa00') in 0.009840 seconds
-  Import took 0.014672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.079068 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase BT.asset
-  artifactKey: Guid(00910cd264c98a544aa89d96b928b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase BT.asset using Guid(00910cd264c98a544aa89d96b928b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796c97e9b90f55a29cb529f92f1c34e8') in 0.071795 seconds
-  Import took 0.076748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.637729 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase
-  artifactKey: Guid(de6523ec3ce68e3439cc102c97e89d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase using Guid(de6523ec3ce68e3439cc102c97e89d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59aa9f88c37450d0ce992763aab013c') in 0.008658 seconds
-  Import took 0.013391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054777 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase/NavMesh.asset
-  artifactKey: Guid(2c370ce2c8b777b4c9e1c2a97efedd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase/NavMesh.asset using Guid(2c370ce2c8b777b4c9e1c2a97efedd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48177d63b7016b1c9acb6d1c180868e') in 0.008380 seconds
-  Import took 0.013228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.699364 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Events.unity
-  artifactKey: Guid(12289295dd7aec0488b70efc14ffd397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Events.unity using Guid(12289295dd7aec0488b70efc14ffd397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c2fd6b424703bad859a5a541ebbfa9') in 0.009798 seconds
-  Import took 0.014531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.437123 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/If-Then-Else With Trigger.unity
-  artifactKey: Guid(cbc34481c3592b2428f4cbd14dc3f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/If-Then-Else With Trigger.unity using Guid(cbc34481c3592b2428f4cbd14dc3f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc95a54d81164add5ee95a8de616e2') in 0.008858 seconds
-  Import took 0.013312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.907517 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Imaginary Cat.unity
-  artifactKey: Guid(9dd77a9ec865edc49bf64c954ae6a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Imaginary Cat.unity using Guid(9dd77a9ec865edc49bf64c954ae6a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdd161417584c92428ed77e355cf62e') in 0.009226 seconds
-  Import took 0.013928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.480311 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Iterator Controller.unity
-  artifactKey: Guid(03b63081ca046494ba2d75134eaf217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Iterator Controller.unity using Guid(03b63081ca046494ba2d75134eaf217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cbb5830ac00bd599c3f1bc7f14a145') in 0.008372 seconds
-  Import took 0.012925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.536174 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase.unity
-  artifactKey: Guid(e800f10813aef6c43ada490e20e75333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase.unity using Guid(e800f10813aef6c43ada490e20e75333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cd1afaaabdf3c634c8648176d06b11') in 0.009977 seconds
-  Import took 0.014542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.509825 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Turret Targeting.unity
-  artifactKey: Guid(3572598a291d3bc4c81c8f33502d62be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Turret Targeting.unity using Guid(3572598a291d3bc4c81c8f33502d62be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc886dd031ccfc4fff14f0fbfd88dc97') in 0.008295 seconds
-  Import took 0.012932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.468814 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Variables Data Binding & Implemented Action.unity
-  artifactKey: Guid(bd537f76404ea9f4fb26cebbc995f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Variables Data Binding & Implemented Action.unity using Guid(bd537f76404ea9f4fb26cebbc995f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f5c69c977b10597015509c684aa37') in 0.008238 seconds
-  Import took 0.012715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 981.789117 seconds.
-  path: Assets/ParadoxNotion/BattleExam.asset
-  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18b83772b387de0dfe8419a4b1cfc03') in 0.009872 seconds
-  Import took 0.015037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.353236 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/_Common
-  artifactKey: Guid(0a187851ef4195944b89d640a1274cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/_Common using Guid(0a187851ef4195944b89d640a1274cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ee7646121d9a70fcd1781516c0004b') in 0.007723 seconds
-  Import took 0.012638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.406621 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes
-  artifactKey: Guid(c0a908f1f2394634ebc13b067c040301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes using Guid(c0a908f1f2394634ebc13b067c040301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9902dd570b4298aadac8edf8ccbf5f') in 0.008127 seconds
-  Import took 0.012919 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.549435 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/DialogueExample.unity
-  artifactKey: Guid(fcef76006125baa409b835667e5e0f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/DialogueExample.unity using Guid(fcef76006125baa409b835667e5e0f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124ba87d92f314a82f2676b25984fe15') in 0.008763 seconds
-  Import took 0.013550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.434713 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs
-  artifactKey: Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs using Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573eb8d9d55140489d3b7f1a59063de5') in 0.008054 seconds
-  Import took 0.013365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000676 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs
-  artifactKey: Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs using Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573eb8d9d55140489d3b7f1a59063de5') in 0.003557 seconds
-  Import took 0.008400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.409579 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes
-  artifactKey: Guid(c3c35e681ca10dc4b901d9bb1128a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes using Guid(c3c35e681ca10dc4b901d9bb1128a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985205e4232272f94754cbca52c0ae2d') in 0.009487 seconds
-  Import took 0.016486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.877853 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control.unity
-  artifactKey: Guid(e4c3bfd2bf4a72e4a9653b3dbb36d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control.unity using Guid(e4c3bfd2bf4a72e4a9653b3dbb36d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a7689aae99b94b9d2f9e6037338910') in 0.008411 seconds
-  Import took 0.013435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.423803 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control
-  artifactKey: Guid(c0552d17d169a3142888cf51146a092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control using Guid(c0552d17d169a3142888cf51146a092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990f08ab67d2df971c1098df46714b41') in 0.009536 seconds
-  Import took 0.014656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.624793 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Yet Another Rotating Cube.unity
-  artifactKey: Guid(ab66e0cffe936d842bcea24cfb43658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Yet Another Rotating Cube.unity using Guid(ab66e0cffe936d842bcea24cfb43658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec81d48df12d1cd13f5e0a163b357d84') in 0.010876 seconds
-  Import took 0.015970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.049385 seconds.
-  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control/NavMesh.asset
-  artifactKey: Guid(83c63b6a404506b4d9ed096810c55944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control/NavMesh.asset using Guid(83c63b6a404506b4d9ed096810c55944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a61596096e0b422d4561fcd4731c7') in 0.003704 seconds
-  Import took 0.008441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1419.866128 seconds.
-  path: Assets/Scripts/NodePlayerScript.cs
-  artifactKey: Guid(b6d84606387aa784da2b0b833957ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NodePlayerScript.cs using Guid(b6d84606387aa784da2b0b833957ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6d9b3b5f6251ab1108eb50b062cd6f') in 0.011836 seconds
-  Import took 0.017272 seconds .
+  Time since last request: 42.925410 seconds.
+  path: Assets/Prefabs/UnKnownCard.prefab
+  artifactKey: Guid(12ed3f7b9054d5c44ab98077be778898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UnKnownCard.prefab using Guid(12ed3f7b9054d5c44ab98077be778898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fe193f2047bbdf031afb9630f95ea4') in 0.096565 seconds 
+  Import took 0.100466 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006388 seconds.
+Registered in 0.003056 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
+- Completed reload, in  0.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (948ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (799ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.6 MB.
-System memory in use after: 120.6 MB.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3082.
-Total: 4.461300 ms (FindLiveObjects: 0.558100 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.580200 ms  DeleteObjects: 0.217200 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3108.
+Total: 2.780200 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.137500 ms MarkObjects: 2.377300 ms  DeleteObjects: 0.017900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 553.996643 seconds.
-  path: Assets/Scripts/PCS.cs
-  artifactKey: Guid(f1aff1e5e1d4f94418f846fbf1c1c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PCS.cs using Guid(f1aff1e5e1d4f94418f846fbf1c1c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba65f8cb716cbe4a71024b8ad455c58') in 0.016080 seconds
-  Import took 0.021257 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007295 seconds.
+Registered in 0.002779 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.6 MB.
-System memory in use after: 120.7 MB.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3086.
-Total: 4.094500 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.078300 ms MarkObjects: 3.503100 ms  DeleteObjects: 0.207900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3111.
+Total: 2.677200 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.293500 ms  DeleteObjects: 0.016000 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006319 seconds.
+Registered in 0.002765 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.311 seconds
+- Completed reload, in  0.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (978ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (243ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.6 MB.
-System memory in use after: 120.7 MB.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 120.9 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3090.
-Total: 3.285900 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.534400 ms  DeleteObjects: 0.176900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3114.
+Total: 2.773200 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.380900 ms  DeleteObjects: 0.017400 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 2425.593241 seconds.
-  path: Assets/Prefabs/Tile.prefab
-  artifactKey: Guid(e9a645085a4a7d84494e8a88272fddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tile.prefab using Guid(e9a645085a4a7d84494e8a88272fddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5cb3a32d6180abc5dab8d9579fe69c') in 0.138003 seconds
-  Import took 0.144089 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 121.0 MB.
 
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 2.964200 ms (FindLiveObjects: 0.255200 ms CreateObjectMapping: 0.124100 ms MarkObjects: 2.561900 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 9.161026 seconds.
-  path: Assets/Prefabs/NodePlayer.prefab
-  artifactKey: Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NodePlayer.prefab using Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8a198328569decca411e38922931d') in 0.009839 seconds
-  Import took 0.015827 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.7 MB.
+System memory in use after: 121.0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045128 seconds.
-  path: Assets/Prefabs/NodePlayer.prefab
-  artifactKey: Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NodePlayer.prefab using Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8a198328569decca411e38922931d') in 0.005905 seconds
-  Import took 0.010647 seconds .
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3120.
+Total: 2.671100 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.122800 ms MarkObjects: 2.303600 ms  DeleteObjects: 0.015700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 7.207435 seconds.
-  path: Assets/Prefabs/NodePC.prefab
-  artifactKey: Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/NodePC.prefab using Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a8e85a4e44f63df858704a323c2e8d') in 0.010811 seconds
-  Import took 0.015698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.051751 seconds.
-  path: Assets/ParadoxNotion/BattleExam.asset
-  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df71b36f199b22c7302427b674bd9ae') in 0.049894 seconds
-  Import took 0.055576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 156.620353 seconds.
-  path: Assets/ParadoxNotion/BattleExam.asset
-  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b34dff9858130ca93d50f881d54ce20') in 0.004801 seconds
-  Import took 0.010246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.099756 seconds.
-  path: Assets/ParadoxNotion/BattleExam.asset
-  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8be6004085065024c96c8b3314291') in 0.006261 seconds
-  Import took 0.012517 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
