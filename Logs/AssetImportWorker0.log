@@ -1,0 +1,597 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+G:\unity\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57045
+Successfully changed project path to: C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject
+C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path G:/unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nicc/Documents/GitHub/DewberryFreeTimeGameProject/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'G:/unity/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'G:/unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001636 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.566 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 71.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.574 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.4 MB.
+System memory in use after: 121.2 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 3.203300 ms (FindLiveObjects: 0.313800 ms CreateObjectMapping: 0.075900 ms MarkObjects: 2.604700 ms  DeleteObjects: 0.205900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ParadoxNotion/ParadoxNotion.asmdef
+  artifactKey: Guid(b134867f3cd9e37428b652f97bf28b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/ParadoxNotion.asmdef using Guid(b134867f3cd9e37428b652f97bf28b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e82d4c6cf5d327bbc24c6928007851') in 0.058897 seconds
+  Import took 0.064336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/ParadoxNotion
+  artifactKey: Guid(f5064f941a5ebb64596e80c98bcad19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion using Guid(f5064f941a5ebb64596e80c98bcad19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1196d97437da92f42db15260e8d5b0c') in 0.002876 seconds
+  Import took 0.007195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.432031 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas
+  artifactKey: Guid(ea23bacb128cf2c49b9cac335109b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas using Guid(ea23bacb128cf2c49b9cac335109b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4eabe30f564ccfded78cae8f38b58b') in 0.009645 seconds
+  Import took 0.014185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.505593 seconds.
+  path: Assets/ParadoxNotion/CanvasCore
+  artifactKey: Guid(bd9f4941b19037f4a88460b874a8a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore using Guid(bd9f4941b19037f4a88460b874a8a3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93752bbb8bd10e562715e2c339e32327') in 0.009369 seconds
+  Import took 0.014187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052275 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/GraphOwnerGizmo.png
+  artifactKey: Guid(b5eeec78a0081094cb8dfeb83808d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/GraphOwnerGizmo.png using Guid(b5eeec78a0081094cb8dfeb83808d762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce6921d797ce5b8c1850040f81fbcb') in 0.089633 seconds
+  Import took 0.094425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.080116 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework
+  artifactKey: Guid(db108d81d17994548b7c6fbc7398262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework using Guid(db108d81d17994548b7c6fbc7398262b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d883de0ca8cd74e26bda3c3f34c1571') in 0.008766 seconds
+  Import took 0.013640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.807628 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Design
+  artifactKey: Guid(10ba45a5b4cb5be40bcaf02f335654ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Design using Guid(10ba45a5b4cb5be40bcaf02f335654ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed847948807f396d8d0ce919312daa1') in 0.008699 seconds
+  Import took 0.013437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406153 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Common
+  artifactKey: Guid(0aa2a0733358abb4c90587d3628d0ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Common using Guid(0aa2a0733358abb4c90587d3628d0ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c3426e075a5a318414f376e1112c81') in 0.008438 seconds
+  Import took 0.013376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.851163 seconds.
+  path: Assets/ParadoxNotion/CanvasCore/Framework/Runtime
+  artifactKey: Guid(e80025b5d020a1644970c8b8d29b16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/CanvasCore/Framework/Runtime using Guid(e80025b5d020a1644970c8b8d29b16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c0f444aecaf1ecb6c4de15912594c6') in 0.009114 seconds
+  Import took 0.014169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.252481 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Modules
+  artifactKey: Guid(4b96917df5b826b42aca7c0146350c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Modules using Guid(4b96917df5b826b42aca7c0146350c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4166b2c9a75bd76ddf25e0ce88d8808') in 0.009509 seconds
+  Import took 0.014241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.892396 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Tasks
+  artifactKey: Guid(7dbd2d497495aa54d9567ca422bbc220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Tasks using Guid(7dbd2d497495aa54d9567ca422bbc220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dae385c9d38f1f81802392ae5d62ba6') in 0.008650 seconds
+  Import took 0.013410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.603537 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions
+  artifactKey: Guid(0271def5faffd2942bc5032d22fd8aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions using Guid(0271def5faffd2942bc5032d22fd8aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18071821aa7bc3ce8f78289d79fbecc') in 0.008536 seconds
+  Import took 0.013171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.298194 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents
+  artifactKey: Guid(a216bd9eb1f3257479c6eb7bd54a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents using Guid(a216bd9eb1f3257479c6eb7bd54a97c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f3014afadf6fcc682513d32ff258ba') in 0.009120 seconds
+  Import took 0.013719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.712922 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouse2D.cs
+  artifactKey: Guid(41f72cd7fdd898849b2e44eddeb6c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Tasks/Conditions/SystemEvents/CheckMouse2D.cs using Guid(41f72cd7fdd898849b2e44eddeb6c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31666ed3c9878ee50ed5308d763a2d0') in 0.020642 seconds
+  Import took 0.025531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.786207 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Editor
+  artifactKey: Guid(21af63cb2c48a3b4f829ae3b353031b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Editor using Guid(21af63cb2c48a3b4f829ae3b353031b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd71a25deb0d4a1c869408d74f99fbfb') in 0.007810 seconds
+  Import took 0.013526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.241658 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Modules/DialogueTrees
+  artifactKey: Guid(401468022ced6be409de4e26417b1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Modules/DialogueTrees using Guid(401468022ced6be409de4e26417b1357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18468552e95306f300d2593a2ecafb2b') in 0.008876 seconds
+  Import took 0.013704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.817855 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Modules/StateMachines
+  artifactKey: Guid(138783e4d22e4914386375d72cfb9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Modules/StateMachines using Guid(138783e4d22e4914386375d72cfb9fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb21be076361fa5e4a9bc155d81db14') in 0.007900 seconds
+  Import took 0.013304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.020442 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer
+  artifactKey: Guid(041e18f0c8aec704cb1d5550618b04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer using Guid(041e18f0c8aec704cb1d5550618b04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7390cd1f2bc5e61969f79ce5e1f947e1') in 0.008970 seconds
+  Import took 0.013836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308523 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs
+  artifactKey: Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs using Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2afe45b302028a682884ea419b351') in 0.003706 seconds
+  Import took 0.009032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs
+  artifactKey: Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas/Modules/ActionListPlayer/ActionListPlayer.cs using Guid(771e8d04ad23ec04ca6178c3be664c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2afe45b302028a682884ea419b351') in 0.003471 seconds
+  Import took 0.007959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.889819 seconds.
+  path: Assets/ParadoxNotion/FSM.asset
+  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/FSM.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7027fc0569a59a563b3ec9826740fe12') in 0.038189 seconds
+  Import took 0.043111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.443662 seconds.
+  path: Assets/ParadoxNotion/BattleExam.asset
+  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bad758d16c1384648c9ff313e6466e9') in 0.008514 seconds
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2576 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.7 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3077.
+Total: 2.942100 ms (FindLiveObjects: 0.311700 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.276500 ms  DeleteObjects: 0.273200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 589.985981 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources
+  artifactKey: Guid(da34acc11b7d0f64586ba39b224e1534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources using Guid(da34acc11b7d0f64586ba39b224e1534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9916db60c2e98a3b80449cdf1aaa682') in 0.012838 seconds
+  Import took 0.018199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.674425 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes
+  artifactKey: Guid(86a19da38bec7004198609d5b5095a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes using Guid(86a19da38bec7004198609d5b5095a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deb067d44ed2b219ac43093abee5978') in 0.007875 seconds
+  Import took 0.012440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940855 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes
+  artifactKey: Guid(0fec79ea23d881342a92c4686f24b03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes using Guid(0fec79ea23d881342a92c4686f24b03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6cb5639061e8e14f5b3ea066774690') in 0.008273 seconds
+  Import took 0.012885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.204102 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes
+  artifactKey: Guid(9e731300e58d6e04ba9c1d12bdc60ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes using Guid(9e731300e58d6e04ba9c1d12bdc60ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8dbf0a1683fb6d4ff93b8a8325aa00') in 0.009840 seconds
+  Import took 0.014672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079068 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase BT.asset
+  artifactKey: Guid(00910cd264c98a544aa89d96b928b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase BT.asset using Guid(00910cd264c98a544aa89d96b928b2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796c97e9b90f55a29cb529f92f1c34e8') in 0.071795 seconds
+  Import took 0.076748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.637729 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase
+  artifactKey: Guid(de6523ec3ce68e3439cc102c97e89d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase using Guid(de6523ec3ce68e3439cc102c97e89d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59aa9f88c37450d0ce992763aab013c') in 0.008658 seconds
+  Import took 0.013391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054777 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase/NavMesh.asset
+  artifactKey: Guid(2c370ce2c8b777b4c9e1c2a97efedd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase/NavMesh.asset using Guid(2c370ce2c8b777b4c9e1c2a97efedd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48177d63b7016b1c9acb6d1c180868e') in 0.008380 seconds
+  Import took 0.013228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.699364 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Events.unity
+  artifactKey: Guid(12289295dd7aec0488b70efc14ffd397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Events.unity using Guid(12289295dd7aec0488b70efc14ffd397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c2fd6b424703bad859a5a541ebbfa9') in 0.009798 seconds
+  Import took 0.014531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437123 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/If-Then-Else With Trigger.unity
+  artifactKey: Guid(cbc34481c3592b2428f4cbd14dc3f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/If-Then-Else With Trigger.unity using Guid(cbc34481c3592b2428f4cbd14dc3f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fc95a54d81164add5ee95a8de616e2') in 0.008858 seconds
+  Import took 0.013312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.907517 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Imaginary Cat.unity
+  artifactKey: Guid(9dd77a9ec865edc49bf64c954ae6a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Imaginary Cat.unity using Guid(9dd77a9ec865edc49bf64c954ae6a36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cdd161417584c92428ed77e355cf62e') in 0.009226 seconds
+  Import took 0.013928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480311 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Iterator Controller.unity
+  artifactKey: Guid(03b63081ca046494ba2d75134eaf217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Iterator Controller.unity using Guid(03b63081ca046494ba2d75134eaf217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cbb5830ac00bd599c3f1bc7f14a145') in 0.008372 seconds
+  Import took 0.012925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.536174 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase.unity
+  artifactKey: Guid(e800f10813aef6c43ada490e20e75333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Soldier Chase.unity using Guid(e800f10813aef6c43ada490e20e75333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cd1afaaabdf3c634c8648176d06b11') in 0.009977 seconds
+  Import took 0.014542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.509825 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Turret Targeting.unity
+  artifactKey: Guid(3572598a291d3bc4c81c8f33502d62be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Turret Targeting.unity using Guid(3572598a291d3bc4c81c8f33502d62be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc886dd031ccfc4fff14f0fbfd88dc97') in 0.008295 seconds
+  Import took 0.012932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.468814 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Variables Data Binding & Implemented Action.unity
+  artifactKey: Guid(bd537f76404ea9f4fb26cebbc995f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/BT Scenes/Variables Data Binding & Implemented Action.unity using Guid(bd537f76404ea9f4fb26cebbc995f2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f5c69c977b10597015509c684aa37') in 0.008238 seconds
+  Import took 0.012715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 981.789117 seconds.
+  path: Assets/ParadoxNotion/BattleExam.asset
+  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18b83772b387de0dfe8419a4b1cfc03') in 0.009872 seconds
+  Import took 0.015037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.353236 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/_Common
+  artifactKey: Guid(0a187851ef4195944b89d640a1274cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/_Common using Guid(0a187851ef4195944b89d640a1274cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ee7646121d9a70fcd1781516c0004b') in 0.007723 seconds
+  Import took 0.012638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.406621 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes
+  artifactKey: Guid(c0a908f1f2394634ebc13b067c040301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes using Guid(c0a908f1f2394634ebc13b067c040301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9902dd570b4298aadac8edf8ccbf5f') in 0.008127 seconds
+  Import took 0.012919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549435 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/DialogueExample.unity
+  artifactKey: Guid(fcef76006125baa409b835667e5e0f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/DialogueExample.unity using Guid(fcef76006125baa409b835667e5e0f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124ba87d92f314a82f2676b25984fe15') in 0.008763 seconds
+  Import took 0.013550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434713 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs
+  artifactKey: Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs using Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573eb8d9d55140489d3b7f1a59063de5') in 0.008054 seconds
+  Import took 0.013365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000676 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs
+  artifactKey: Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/DT Scenes/ClickToStartDialogue.cs using Guid(d1e3eb5095756bc459428674313459f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573eb8d9d55140489d3b7f1a59063de5') in 0.003557 seconds
+  Import took 0.008400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.409579 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes
+  artifactKey: Guid(c3c35e681ca10dc4b901d9bb1128a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes using Guid(c3c35e681ca10dc4b901d9bb1128a143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985205e4232272f94754cbca52c0ae2d') in 0.009487 seconds
+  Import took 0.016486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.877853 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control.unity
+  artifactKey: Guid(e4c3bfd2bf4a72e4a9653b3dbb36d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control.unity using Guid(e4c3bfd2bf4a72e4a9653b3dbb36d071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a7689aae99b94b9d2f9e6037338910') in 0.008411 seconds
+  Import took 0.013435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423803 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control
+  artifactKey: Guid(c0552d17d169a3142888cf51146a092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control using Guid(c0552d17d169a3142888cf51146a092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990f08ab67d2df971c1098df46714b41') in 0.009536 seconds
+  Import took 0.014656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.624793 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Yet Another Rotating Cube.unity
+  artifactKey: Guid(ab66e0cffe936d842bcea24cfb43658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Yet Another Rotating Cube.unity using Guid(ab66e0cffe936d842bcea24cfb43658e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec81d48df12d1cd13f5e0a163b357d84') in 0.010876 seconds
+  Import took 0.015970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.049385 seconds.
+  path: Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control/NavMesh.asset
+  artifactKey: Guid(83c63b6a404506b4d9ed096810c55944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/NodeCanvas Resources/Example Scenes/Scenes/FSM Scenes/Character Point & Click Control/NavMesh.asset using Guid(83c63b6a404506b4d9ed096810c55944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8a61596096e0b422d4561fcd4731c7') in 0.003704 seconds
+  Import took 0.008441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1419.866128 seconds.
+  path: Assets/Scripts/NodePlayerScript.cs
+  artifactKey: Guid(b6d84606387aa784da2b0b833957ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NodePlayerScript.cs using Guid(b6d84606387aa784da2b0b833957ef17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6d9b3b5f6251ab1108eb50b062cd6f') in 0.011836 seconds
+  Import took 0.017272 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3082.
+Total: 4.461300 ms (FindLiveObjects: 0.558100 ms CreateObjectMapping: 0.103300 ms MarkObjects: 3.580200 ms  DeleteObjects: 0.217200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 553.996643 seconds.
+  path: Assets/Scripts/PCS.cs
+  artifactKey: Guid(f1aff1e5e1d4f94418f846fbf1c1c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PCS.cs using Guid(f1aff1e5e1d4f94418f846fbf1c1c85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba65f8cb716cbe4a71024b8ad455c58') in 0.016080 seconds
+  Import took 0.021257 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007295 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 4.094500 ms (FindLiveObjects: 0.302900 ms CreateObjectMapping: 0.078300 ms MarkObjects: 3.503100 ms  DeleteObjects: 0.207900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2578 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.6 MB.
+System memory in use after: 120.7 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3090.
+Total: 3.285900 ms (FindLiveObjects: 0.483500 ms CreateObjectMapping: 0.089600 ms MarkObjects: 2.534400 ms  DeleteObjects: 0.176900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2425.593241 seconds.
+  path: Assets/Prefabs/Tile.prefab
+  artifactKey: Guid(e9a645085a4a7d84494e8a88272fddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Tile.prefab using Guid(e9a645085a4a7d84494e8a88272fddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5cb3a32d6180abc5dab8d9579fe69c') in 0.138003 seconds
+  Import took 0.144089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.161026 seconds.
+  path: Assets/Prefabs/NodePlayer.prefab
+  artifactKey: Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NodePlayer.prefab using Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8a198328569decca411e38922931d') in 0.009839 seconds
+  Import took 0.015827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045128 seconds.
+  path: Assets/Prefabs/NodePlayer.prefab
+  artifactKey: Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NodePlayer.prefab using Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8a198328569decca411e38922931d') in 0.005905 seconds
+  Import took 0.010647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.207435 seconds.
+  path: Assets/Prefabs/NodePC.prefab
+  artifactKey: Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NodePC.prefab using Guid(f30a9dd8a63f0f44997888d8b2fdf081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a8e85a4e44f63df858704a323c2e8d') in 0.010811 seconds
+  Import took 0.015698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.051751 seconds.
+  path: Assets/ParadoxNotion/BattleExam.asset
+  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4df71b36f199b22c7302427b674bd9ae') in 0.049894 seconds
+  Import took 0.055576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.620353 seconds.
+  path: Assets/ParadoxNotion/BattleExam.asset
+  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b34dff9858130ca93d50f881d54ce20') in 0.004801 seconds
+  Import took 0.010246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.099756 seconds.
+  path: Assets/ParadoxNotion/BattleExam.asset
+  artifactKey: Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion/BattleExam.asset using Guid(42f219f75c9abe94b9be2ef56f6eabb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d8be6004085065024c96c8b3314291') in 0.006261 seconds
+  Import took 0.012517 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
